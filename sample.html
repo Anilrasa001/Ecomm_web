@@ -1,0 +1,54 @@
+<!-- develop a html code fo ihb login page perform clint side validation using -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>login|page</title>
+	<style type="text/css">
+		#label{
+			color: red;
+			font-family: monospace;
+			background-color: lightyellow;
+		}
+		#button{
+			background-color:lightgreen;
+		}
+		.bodycolor{
+			background-color:ghostwhite;
+
+		}
+
+	</style>
+
+</head>
+<body style="text-align:center;">
+	<div> 
+		<fieldset class="bodycolor">
+		<legend style="text-align:left;">IHUB_STUDENT_LOGIN</legend>
+		<form >
+		<center>
+		<table border="3px" id="label">
+				<tr>
+					<td><label><b>UserName:</b></label></td>
+					<td><input type="text" name="colour" id="mycolor" value="Enter Valid Username" placeholder="enter username"
+					pattern="[A-Z]{1}[a-z]*[0-9]{3}[@]gmail[.]{1}com" required autocomplete="off" ></td>
+				</tr>
+				<tr>
+					<td><label><b>Password:</b></label></td>
+					<td><input type="text" name="colour" id="mycolor" value="********"placeholder="enter password" pattern="[A-Z]{1}[a-z]*[0-9]*"  required autocomplete="off"  ></td>
+				</tr>
+				<tr style="text-align:center;">
+					<td ></td>
+					<td><input id="button" type="submit" name="" id="" value="Login" placeholder="submit"></td>
+				</tr>
+
+
+		</table>
+		</center>
+		</form>
+		</fieldset>
+
+	</div>
+</body>
+</html> 
